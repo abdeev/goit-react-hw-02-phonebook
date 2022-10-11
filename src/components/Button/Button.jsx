@@ -3,7 +3,11 @@ import css from './Button.module.css';
 
 const DeleteButton = ({ handleDeleteCard }) => {
   return (
-    <button type="button" onClick={handleDeleteCard} className={css.delete_button}>
+    <button
+      type="button"
+      onClick={handleDeleteCard}
+      className={css.delete_button}
+    >
       Delete
     </button>
   );
